@@ -1,0 +1,75 @@
+body{
+    background: url('../imagens/lizards2.gif');
+    font-family: 'Raleway', sans-serif;
+}
+
+.site{
+    background: #006699;
+    width: 580px;
+    border-left: 3px solid #003366;
+    border-right: 3px solid #003366;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.menu-lateral{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-lateral li a:hover{
+    background: #2c8fc0;
+}
+
+.menu-lateral li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #1177aa;
+}
+
+nav{
+    box-sizing: border-box;
+    width: 25%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+main{
+    background: white;
+    box-sizing: border-box;
+    width: 69%;
+    margin-left: 20px;
+    padding: 40px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+h2{
+    color: #003366;
+    border-bottom: 1px solid #003366;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main p{
+    margin: 5px 0;
+}
+
+sup{
+    color: red;
+    font-size: 10px;
+    font-style: italic;
+    vertical-align: super;
+    font-weight: bold;
+}
+
+strong{
+    color: #99999c;
+    text-transform: uppercase;
+}
